@@ -20,8 +20,8 @@ def testFunc(testParam):
     """
     returnParam = testParam
     print("parameter : " + testParam)
-    print("return : " + testParam)
-    return testParam
+    print("return : " + returnParam)
+    return returnParam
 
 class testClass():
     # クラスでのdocstringのサンプル
@@ -70,7 +70,8 @@ class testClass():
         test_name : string
             返り値の説明を記述
         """
-        pass
+        # 処理
+        return test_id
 
 def binaryStringToInt(binaryString):
     """
