@@ -6,6 +6,9 @@ from src.ElectronBacteriaWorldModule import WorldUtils as wu
 
 
 def main():
+    print(wu.binaryStringToInt("1001"))
+    print(wu.binaryStringToInt("1011"))
+    print(wu.binaryAndBinary(9,11))
     test()
 
 # 関数宣言
