@@ -13,7 +13,7 @@ def main():
 
 # 関数宣言
 def test():
-    wu.testFunc(111)
+    wu.testFunc("1029")
 
 
 
