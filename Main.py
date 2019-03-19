@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # インポート
 import os
+from src.ElectronBacteriaWorldModule import SampleCode as sc
 from src.ElectronBacteriaWorldModule import WorldUtils as wu
-
 
 
 def main():
@@ -13,9 +13,8 @@ def main():
 
 # 関数宣言
 def test():
-    wu.testFunc("1029")
-
-
+    sc.testFunc("1029")
+    sc.whileLoopTest()
 
 
 
