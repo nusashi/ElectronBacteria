@@ -11,10 +11,12 @@ def main():
     print(wu.binaryAndBinary(9,11))
     test()
 
+    print("{str},{number:04x}".format(str="string",number=131))
+
 # 関数宣言
 def test():
     sc.testFunc("1029")
-    sc.whileLoopTest()
+    # sc.whileLoopTest()
 
 
 
